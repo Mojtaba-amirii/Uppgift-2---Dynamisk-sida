@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Mojtaba Amiri | Frontend Developer for Mobile and Webb</title>
+  </head>
+
+  <body>
+    <nav>
+      <h1>Mojtaba Amiri</h1>
+      <ul class="navigation">
+        <li>
+          <a href="data.json" target="_blank" class="nav-link">CV</a>
+        </li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <section class="hero">
+      <img
+        src="https://cdn.glitch.global/b3e16d1d-347e-47c4-9209-5ec30e9cabe2/1_HdBFQ9EO_Vc4-lHKShFbAQ%20(1).png?v=1652890118769"
+        alt="Two developer!"
+      />
+      <div class="bio">
+        <h2 class="bio-title">About me</h2>
+        <p class="bio-text">
+          This is my personal page.<br />
+          Welcome to my corner of the Internet.<br />
+          I have been working as a Software Developer for the past year.<br />
+          My background is in fullstack developer.<br />
+          I am looking for new opportunities.<br />
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2 class="skills-title">My top skills</h2>
+      <div class="skills-wrapper">
+        <img
+          id="css"
+          src="https://cdn.glitch.global/b3e16d1d-347e-47c4-9209-5ec30e9cabe2/1313568_website_web_internet_css_style_icon.png?v=1652895149622"
+          alt="CSS logo"
+        />
+        <img
+          id="html"
+          src="https://cdn.glitch.global/b3e16d1d-347e-47c4-9209-5ec30e9cabe2/317755_badge_html_html5_achievement_award_icon.png?v=1652895187955"
+          alt="Html logo"
+        />
+        <img
+          src="https://cdn.glitch.global/b3e16d1d-347e-47c4-9209-5ec30e9cabe2/js-logo-1.png?v=1652895398531"
+          alt="Javascript logo"
+        />
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="box">
+        <h2>My latest projects</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="https://cdn.glitch.global/b3e16d1d-347e-47c4-9209-5ec30e9cabe2/Ska%CC%88rmavbild%202022-05-11%20kl.%2018.48.23.png?v=1652288367754"
+              alt="It is raining cat and dog!"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Make it Rain</h3>
+            <p class="project-details"></p>
+            <a
+              href="https://understood-foam-forsythia.glitch.me/"
+              target="_blank"
+              class="project-link"
+              >Check it Out</a
+            >
+          </div>
+
+          <div class="project-container project-card">
+            <img
+              src="https://cdn.glitch.global/b3e16d1d-347e-47c4-9209-5ec30e9cabe2/Ska%CC%88rmavbild%202022-05-11%20kl.%2019.49.44.png?v=1652291478771"
+              alt="A spaceship lost in space"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Save the spaceship</h3>
+            <p class="project-details"></p>
+            <a
+              href="https://acute-jealous-binder.glitch.me/"
+              target="_blank"
+              class="project-link"
+              >Check it Out</a
+            >
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="Skärmbild 2022-11-10 101330.png"
+              alt="Guess a number Game"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Guess a number Game</h3>
+            <p class="project-details"></p>
+            <a
+              href="https://mojtaba-amirii.github.io/Guess-Number-Game/"
+              target="_blank"
+              class="project-link"
+              >Check it Out</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="socials">
+      <a href="https://twitter.com/koladechris" target="_blank"
+        ><img
+          src="https://cdn.glitch.global/b3e16d1d-347e-47c4-9209-5ec30e9cabe2/5296514_bird_tweet_twitter_twitter%20logo_icon.png?v=1653251566877"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="https://cdn.glitch.global/b3e16d1d-347e-47c4-9209-5ec30e9cabe2/1298747_instagram_brand_logo_social%20media_icon.png?v=1653251600186"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a
+        href="https://se.linkedin.com/in/mojtaba-amiri-a26208173"
+        target="_blank"
+        ><img
+          src="https://cdn.glitch.global/b3e16d1d-347e-47c4-9209-5ec30e9cabe2/4102586_applications_linkedin_social_social%20media_icon.png?v=1653251640858"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/Mojtaba-amirii" target="_blank"
+        ><img
+          src="https://cdn.glitch.global/b3e16d1d-347e-47c4-9209-5ec30e9cabe2/4745725_code_development_github_open-source_programming_icon.png?v=1653251669685"
+          alt="Github"
+          loading="lazy"
+          class="socicon"
+      /></a>
+    </div>
+
+    <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://twitter.com/koladechris" target="_blank"
+          >Mojtaba Amiri</a
+        >
+      </p>
+    </footer>
+    <div class="scroll-up">
+      <img
+        src="https://cdn.glitch.global/b3e16d1d-347e-47c4-9209-5ec30e9cabe2/66757.png?v=1652891462531"
+        alt="scroll up icon"
+      />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

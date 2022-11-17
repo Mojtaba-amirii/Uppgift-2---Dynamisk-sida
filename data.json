@@ -1,0 +1,96 @@
+{
+  "info": {
+    "Profile": "Mojtaba Amiri 1998-07-06 Jag är driven, stresstålig, snabblärd och har hög arbetsmoral",
+    "Adress": "Prylvägen 14, 126 38 Hägersten",
+    "Mailadress": "mojtaba.a.amiri@outlook.com",
+    "Mobile": "0737084898"
+  },
+  "Jobbexperiences": [
+    {
+      "title": "Sales assistant",
+      "location": "Barkarby",
+      "company": "Decathlon",
+      "time": "2022-pågående",
+      "deccription": "Jag planerar den kommersiella verksamheten i linje med Decathlons koncept. På Decathlon jobbar jag aktivt med försäljning samt att serva kunden med teknis information om produkterna och dess användning. Dessutom innefattashantering av lager och utbud för verksamheten som sker dagligen."
+    },
+    {
+      "title": "Sales assistant",
+      "location": "stockholms Gallerian",
+      "company": "Jack & Jones",
+      "time": "2020-2021"
+    },
+    {
+      "title": "Sales assistant",
+      "location": "Mall of Scandinavia",
+      "company": "Superdry®",
+      "time": "2020-2020",
+      "deccription": "Som sales assistant på Superdry jobbbade jag mycket kundorienterat och med fokus på att slutföra säljprocessen från första kontakt till avslut i kassan. Här blev jag skarp som säljare. Dessutom fick jag utmana mig i en engelsktalande miljö. Många i personalen var britter och Superdry har ett internationellt klientel."
+    },
+    {
+      "title": "Praktik/extrajobb/vikariat",
+      "location": "stockholms Gallerian",
+      "company": "Jack & Jones",
+      "time": "2019-2020",
+      "deccription": "Jag var säljare i butiken och genom det fick jag massor av erfarenhet och bra säljkunskap. Jag praktiserade på att hjälpa kunder som personnal-shopper och merförsäljning."
+    },
+    {
+      "title": "Praktikant",
+      "location": "Mall of Scandinavia",
+      "company": "Intersport",
+      "time": "2018-2019",
+      "deccription": "Under min praktikperiod fick jag ta del av alla moment i butiken. Jag blev bättre på kundrelation och förberedd till att vara en framgångsrik säljare"
+    },
+    {
+      "title": " Ekonomiansvarig",
+      "location": "stockholm",
+      "company": "SneakerArmour UF",
+      "time": "2018-2019",
+      "deccription": "Jag skötte ekonomin och beräkningar samt skrev företagets affärsplan"
+    },
+    {
+      "title": "Sömnad & Konfektion",
+      "location": "Iran, Mashhad",
+      "company": "Privat företag",
+      "time": "2008-2015",
+      "deccription": "Sömnad av kappor och byxor"
+    }
+  ],
+  "education": [
+    {
+      "Programm": "FRONTENDUTVECKLARE FÖR MOBIL OCH WEBB",
+      "location": "Stockholm Globen",
+      "Yhögskola": "Chas Academy",
+      "time": "2022-pågående"
+    },
+    {
+      "programm": "Nationalekonomi A",
+      "location": "Stockholm Flemningsberg",
+      "University": "Södertörns högskolan",
+      "time": "2021-2021"
+    },
+    {
+      "programm": "Handels- och Administrationsprogrammet",
+      "location": "Stockholm",
+      "Gymnasie": "Grillska Gymnasiet",
+      "time": "2017-2020"
+    },
+    {
+      "programm": "Personal Shopper ",
+      "location": "Stockholm",
+      "Gymnasie": "Grillska Gymnasiet",
+      "time": "2020-2020"
+    }
+  ],
+  "languages": {
+    "svenska": "flyttande",
+    "engelska": "flyttande",
+    "persiska": "modersmål",
+    "dari": "modersmål"
+  },
+  "Others": {
+    "körkort": "behörighet B",
+    "sport": "jag tränar på gym och har svart bälte i Teakwondo",
+    "officepaketet": "kan på ett bra nivå",
+    "Frontendutvecklare": "jag struderar frontend just nu"
+  }
+}
